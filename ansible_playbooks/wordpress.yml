@@ -1,0 +1,36 @@
+---
+- hosts: webservers
+  vars:
+    http_port: 80
+    max_clients: 200
+  remote_user: root
+
+  tasks:
+    - name: ensure apache is at the latest version
+      yum: pkg=httpd state=latest
+      yum: pkg=mod_ssl state=latest
+
+  tasks:
+    - name: install php    
+      yum: pkg=php state=latest
+      yum: pkg=php-mysql state=latest
+      yum: pkg=php-gd state=latest
+
+  tasks:   
+    - name: ensure apache is running (and enable it at boot)
+      service: name=httpd state=started enabled=yes
+
+  tasks:
+    - name: config apache
+      template: src=srv/http_redirection.j2 dest=/etc/httpd/conf.d/http_redirection.conf
+      template: src=srv/website-uat.j2 dest=/etc/httpd/conf.d/website-uat.conf
+      #template: src=srv/ssl.j2 dest=/etc/httpd/conf.d/ssl.conf
+      notify:
+        - restart apache
+  handlers:
+    - name: restart apache
+      service: name=httpd state=restarted
+
+  #tasks:
+  #  - name: uploading html
+  #    copy: src=srv/index.html dest=/home/wordpress/website_wp_satheesh/wordpress    
