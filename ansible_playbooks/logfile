@@ -1,0 +1,75 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:/OU=Domain Control Validated/CN=*.energyah.com
+   i:/C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+ 1 s:/C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+   i:/C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./CN=Go Daddy Root Certificate Authority - G2
+ 2 s:/C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./CN=Go Daddy Root Certificate Authority - G2
+   i:/C=US/O=The Go Daddy Group, Inc./OU=Go Daddy Class 2 Certification Authority
+ 3 s:/C=US/O=The Go Daddy Group, Inc./OU=Go Daddy Class 2 Certification Authority
+   i:/C=US/O=The Go Daddy Group, Inc./OU=Go Daddy Class 2 Certification Authority
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFIzCCBAugAwIBAgIHBHh3sz5xnDANBgkqhkiG9w0BAQsFADCBtDELMAkGA1UE
+BhMCVVMxEDAOBgNVBAgTB0FyaXpvbmExEzARBgNVBAcTClNjb3R0c2RhbGUxGjAY
+BgNVBAoTEUdvRGFkZHkuY29tLCBJbmMuMS0wKwYDVQQLEyRodHRwOi8vY2VydHMu
+Z29kYWRkeS5jb20vcmVwb3NpdG9yeS8xMzAxBgNVBAMTKkdvIERhZGR5IFNlY3Vy
+ZSBDZXJ0aWZpY2F0ZSBBdXRob3JpdHkgLSBHMjAeFw0xNDA4MDExNjA0MDBaFw0x
+NTA4MDExNjA0MDBaMDwxITAfBgNVBAsTGERvbWFpbiBDb250cm9sIFZhbGlkYXRl
+ZDEXMBUGA1UEAwwOKi5lbmVyZ3lhaC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQCduV6lh0gmsnirpDpKpzzWi7LOjnSxgzbZjooV0G0oZkw/laoR
++n4fqMWcRalHPawLHNA+VWWgBXU7JWxiAttrGUxqlskSQNwORNVAcW8CNjSKgSux
+3ryszR8U09MraEDi6mo6DjZxZrgEGDmAm7hdNKR1I6BVR+s7Qq0109KOlRhSjsOG
+hM7WNHJU/okrd6OepE3zKqXPhBzb26xQwte7esCTAHWJzi0QWDEVb3tjA3b7Gvf3
+VWTGw0OlHqPYAnVVrd1mku4Q/yW8vgSXibzbqEO+9Ke3NtMYAbcxUEQq1sMCpKv9
+P/Sw0Lo3nkMaswKs4SHOwGA4dld9ixzp6QkzAgMBAAGjggGvMIIBqzAMBgNVHRMB
+Af8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAOBgNVHQ8BAf8E
+BAMCBaAwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2NybC5nb2RhZGR5LmNvbS9n
+ZGlnMnMxLTg3LmNybDBTBgNVHSAETDBKMEgGC2CGSAGG/W0BBxcBMDkwNwYIKwYB
+BQUHAgEWK2h0dHA6Ly9jZXJ0aWZpY2F0ZXMuZ29kYWRkeS5jb20vcmVwb3NpdG9y
+eS8wdgYIKwYBBQUHAQEEajBoMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5nb2Rh
+ZGR5LmNvbS8wQAYIKwYBBQUHMAKGNGh0dHA6Ly9jZXJ0aWZpY2F0ZXMuZ29kYWRk
+eS5jb20vcmVwb3NpdG9yeS9nZGlnMi5jcnQwHwYDVR0jBBgwFoAUQMK9J47MNIMw
+ojPX+2yz8LQsgM4wJwYDVR0RBCAwHoIOKi5lbmVyZ3lhaC5jb22CDGVuZXJneWFo
+LmNvbTAdBgNVHQ4EFgQUMN8ehg7uYgVJZpwuf1g3PTE+JbAwDQYJKoZIhvcNAQEL
+BQADggEBAC4BLQCFegXivRqz2lUcqFQ+oIc6uotacRWVgA9moj8UInci24N8+Klk
+HBX6hObdqfVdSoKKlA42p6O92LgKJ4CuiG0PW8TX2wMZ8QPVSdU3wfnBvkRr5Qom
+2ujwRYgkGEw/WNFMKQvkwI5N5WSijZfwT2UiDPwa1ETdMnmKBW7mrgeeHe57+z2t
+B4Xe1e9gazgTnLKCKQpBq21LAX1JhV4CdkVG/dD9cnQqf9H6uL883rvcikUVKdCd
+0bFGkZVHQ3q+8lXdbN6061zzgcj4YklzwU8bvfNFblcqWsDAwbzQLUAO0LbkxaoF
++wdarAF1rPkhWJnXXx7DJxe+s++MM7w=
+-----END CERTIFICATE-----
+subject=/OU=Domain Control Validated/CN=*.energyah.com
+issuer=/C=US/ST=Arizona/L=Scottsdale/O=GoDaddy.com, Inc./OU=http://certs.godaddy.com/repository//CN=Go Daddy Secure Certificate Authority - G2
+---
+No client certificate CA names sent
+---
+SSL handshake has read 5444 bytes and written 328 bytes
+---
+New, TLSv1/SSLv3, Cipher is DHE-RSA-AES256-SHA
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+SSL-Session:
+    Protocol  : TLSv1
+    Cipher    : DHE-RSA-AES256-SHA
+    Session-ID: 572333AC3915CB05F36484450BDDE02237DED9BE9C2A531EBD731A1F5EA066D3
+    Session-ID-ctx: 
+    Master-Key: 3E0D302500A125B9C487037AD497DF647E01B4BE8492D76726E74CFECB1C0412D217275C3865433BDCE9A4ACA95A5A3C
+    Key-Arg   : None
+    Start Time: 1436278472
+    Timeout   : 300 (sec)
+    Verify return code: 0 (ok)
+---
+HTTP/1.0 408 Request Time-out
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+
+<html><body><h1>408 Request Time-out</h1>
+Your browser didn't send a complete request in time.
+</body></html>
+closed
