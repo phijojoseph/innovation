@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company: MyString
+  eventname: MyString
+  systemname: MyString
+  startdate: 2015-07-08 00:49:41
+  enddate: 2015-07-08 00:49:41
+  apptype: MyString
+  eventstatus: MyString
+  clustername: MyString
+  archived: 
+
+two:
+  company: MyString
+  eventname: MyString
+  systemname: MyString
+  startdate: 2015-07-08 00:49:41
+  enddate: 2015-07-08 00:49:41
+  apptype: MyString
+  eventstatus: MyString
+  clustername: MyString
+  archived: 
